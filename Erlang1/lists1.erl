@@ -30,13 +30,13 @@ maximum(Max, [Hd|Tl]) ->
                         
 maximum(Max, []) -> io:fwrite("~w~n",[Max]).
 
-min_max(L) -> 
-    io:format("~w,~w", [2, 2]).
-    %min_max(minimum(L), L).
-    %MM = {minimum(L), maximum(L)},
-    %io:fwrite("~w~n", {MM}).
+% min_max(L) -> 
+%     io:format("~w,~w", [2, 2]).
+%     %min_max(minimum(L), L).
+%     %MM = {minimum(L), maximum(L)},
+%     %io:fwrite("~w~n", {MM}).
 
 
 
-start() -> 
-    min_max([3,4,5,6,1,2,9,8,7]).
+% start() -> 
+%     min_max([3,4,5,6,1,2,9,8,7]).
